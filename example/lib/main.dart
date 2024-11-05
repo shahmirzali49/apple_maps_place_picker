@@ -87,7 +87,8 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () async {
                   final result = await Navigator.push<Place?>(
                     context,
-                    MaterialPageRoute(builder: (context) => const PlacePickerPage()),
+                    MaterialPageRoute(
+                        builder: (context) => const PlacePickerPage()),
                   );
 
                   if (result != null) {
@@ -148,7 +149,7 @@ class PlacePickerPage extends StatelessWidget {
           //       fontWeight: FontWeight.bold,
           //       color: Colors.black87,
           //     ),
-          // backgroundColor: Colors.grey.shade100,
+          //     backgroundColor: Colors.grey.shade100,
           //     itemPadding: const PaddingModel(
           //       top: 24,
           //       left: 16,
@@ -156,7 +157,7 @@ class PlacePickerPage extends StatelessWidget {
           //       right: 16,
           //     ),
           //     itemMargin: PaddingModel.symmetric(
-          //       vertical: 24,
+          //       vertical: 12,
           //       horizontal: 16,
           //     ),
           //   ),
@@ -175,6 +176,11 @@ class PlacePickerPage extends StatelessWidget {
           //     ),
           //     confirmButtonStyle: ButtonStyleModel(
           //       backgroundColor: Colors.blue,
+          //       textStyle: TextStyle(
+          //         fontSize: 16,
+          //         fontWeight: FontWeight.normal,
+          //         color: Colors.white,
+          //       ),
           //       cornerRadius: 12,
           //       padding: PaddingModel(
           //         left: 12,
