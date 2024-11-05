@@ -9,6 +9,9 @@ A Flutter plugin that provides a customizable place picker using Apple Maps. Thi
 
 **Note:** This plugin is iOS-only as it uses Apple Maps.
 
+All features provided by the plugin, including place search and geocode location , are completely free to use without requiring any additional API keys or incurring extra costs. Unlike Google Maps, where features like place search are paid, Apple offers these functionalities at no charge, making it a cost-effective solution for iOS apps. For more information, refer to the [official Apple Developer Forum discussion](https://forums.developer.apple.com/forums/thread/127493). 
+
+
 ## Screenshots
 
 ### Light & Dark & Preview
@@ -46,8 +49,8 @@ dependencies:
 
 ```dart
 AppleMapsPlacePicker(
-  initialLatitude: 41.0082,
-  initialLongitude: 28.9784,
+  initialLatitude: 40.37818,
+  initialLongitude: 49.83991,
   onPlaceSelected: (Place place) {
     print('Selected place: ${place.address}');
   },
@@ -57,8 +60,8 @@ AppleMapsPlacePicker(
 
 ```dart
 AppleMapsPlacePicker(
-  initialLatitude: 41.0082,
-  initialLongitude: 28.9784,
+  initialLatitude: 40.37818,
+  initialLongitude: 49.83991,
   config: PlacePickerConfig(
     searchBarConfig: SearchBarConfig(
       hintText: 'Search place',
@@ -93,8 +96,8 @@ AppleMapsPlacePicker(
 
 ```dart
 AppleMapsPlacePicker(
-  initialLatitude: 41.0082,
-  initialLongitude: 28.9784,
+  initialLatitude: 40.37818,
+  initialLongitude: 49.83991,
   onPlaceSelected: (Place place) {
     print('Selected place: ${place.address}');
   },
@@ -113,8 +116,8 @@ AppleMapsPlacePicker(
 
 ```dart
 AppleMapsPlacePicker(
-  initialLatitude: 41.0082,
-  initialLongitude: 28.9784,
+  initialLatitude: 40.37818,
+  initialLongitude: 49.83991,
   onPlaceSelected: (Place place) {
     print('Selected place: ${place.address}');
   },
