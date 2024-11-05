@@ -1,0 +1,34 @@
+PODS:
+  - apple_maps_place_picker (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - pointer_interceptor_ios (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - apple_maps_place_picker (from `.symlinks/plugins/apple_maps_place_picker/ios`)
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - pointer_interceptor_ios (from `.symlinks/plugins/pointer_interceptor_ios/ios`)
+
+EXTERNAL SOURCES:
+  apple_maps_place_picker:
+    :path: ".symlinks/plugins/apple_maps_place_picker/ios"
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  pointer_interceptor_ios:
+    :path: ".symlinks/plugins/pointer_interceptor_ios/ios"
+
+SPEC CHECKSUMS:
+  apple_maps_place_picker: 9572a9f72ef2d2a1633a34f3e2c31448207a6014
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  integration_test: ce0a3ffa1de96d1a89ca0ac26fca7ea18a749ef4
+  pointer_interceptor_ios: 508241697ff0947f853c061945a8b822463947c1
+
+PODFILE CHECKSUM: 9c46fd01abff66081b39f5fa5767b3f1d0b11d76
+
+COCOAPODS: 1.15.2
