@@ -1,8 +1,10 @@
 name: apple_maps_place_picker
 description: "A Flutter plugin that provides native Apple Maps place picker for iOS."
-version: 0.1.1
+version: 0.1.2
 repository: https://github.com/shahmirzali49/apple_maps_place_picker
 issue_tracker: https://github.com/shahmirzali49/apple_maps_place_picker/issues
+documentation: https://pub.dev/documentation/apple_maps_place_picker/latest
+
 
 
 environment:
@@ -36,3 +38,4 @@ topics:
 screenshots:
   - description: 'Apple Maps Place Picker'
     path: assets/light_theme.png
+

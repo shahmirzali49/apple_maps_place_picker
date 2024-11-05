@@ -196,7 +196,7 @@ class PlacePickerPage extends StatelessWidget {
           //   ),
           // ),
           onPlaceSelected: (Place place) {
-            print('Selected place address: ${place.address}');
+            debugPrint('Selected place address: ${place.address}');
             Navigator.pop(context, place);
           },
           // customMarker: Container(

@@ -3,3 +3,6 @@
 
 ## 0.1.1
 - Fixed broken images in README.md
+
+## 0.1.2
+- Updated README.md
