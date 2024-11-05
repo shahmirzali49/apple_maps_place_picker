@@ -45,7 +45,7 @@ dependencies:
 ### Basic Implementation
 
 ```dart
-PlacePicker(
+AppleMapsPlacePicker(
   initialLatitude: 41.0082,
   initialLongitude: 28.9784,
   onPlaceSelected: (Place place) {
@@ -56,7 +56,7 @@ PlacePicker(
 ### Full Customization
 
 ```dart
-PlacePicker(
+AppleMapsPlacePicker(
   initialLatitude: 41.0082,
   initialLongitude: 28.9784,
   config: PlacePickerConfig(
@@ -92,7 +92,7 @@ PlacePicker(
 ### Custom Marker
 
 ```dart
-PlacePicker(
+AppleMapsPlacePicker(
   initialLatitude: 41.0082,
   initialLongitude: 28.9784,
   onPlaceSelected: (Place place) {
@@ -112,7 +112,7 @@ PlacePicker(
 ### Custom Bottom Address View
 
 ```dart
-PlacePicker(
+AppleMapsPlacePicker(
   initialLatitude: 41.0082,
   initialLongitude: 28.9784,
   onPlaceSelected: (Place place) {
@@ -152,4 +152,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-Your Name ([Shahmirzali](https://www.linkedin.com/in/sahmirzeli))
+Shahmirzali Huseynov ([Linkedin](https://www.linkedin.com/in/sahmirzeli))
