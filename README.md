@@ -138,6 +138,14 @@ AppleMapsPlacePicker(
 )
 ```
 
+## TODO
+
+Upcoming features and improvements:
+
+- [ ] Add "My Location" button functionality
+- [ ] Implement custom map styles support
+- [ ] Support for custom search UI
+
 ## Example
 
 For a complete example, check the [example](https://github.com/shahmirzali49/apple_maps_place_picker/tree/main/example) directory.
