@@ -25,6 +25,22 @@ class AppleMapsPlacePicker extends StatefulWidget {
   /// Custom marker widget to replace the default marker
   final Widget? customMarker;
 
+  // Helpers for coordinate validation
+  
+  static bool _isValidLatitude(double latitude) {
+    return !latitude.isNaN && 
+           !latitude.isInfinite && 
+           latitude >= -90 && 
+           latitude <= 90;
+  }
+
+  static bool _isValidLongitude(double longitude) {
+    return !longitude.isNaN && 
+           !longitude.isInfinite && 
+           longitude >= -180 && 
+           longitude <= 180;
+  }
+
   AppleMapsPlacePicker({
     super.key,
     required this.initialLatitude,
@@ -34,6 +50,14 @@ class AppleMapsPlacePicker extends StatefulWidget {
     this.customBottomAddressViewBuilder,
     this.customMarker,
   })  : assert(
+          _isValidLatitude(initialLatitude),
+          'Invalid latitude value. Must be between -90 and 90 degrees.',
+        ),
+        assert(
+          _isValidLongitude(initialLongitude),
+          'Invalid longitude value. Must be between -180 and 180 degrees.',
+        ),
+        assert(
           (config?.centerMarkerConfig ?? false) == false ||
               customMarker == null,
           'Either use the customMarker or config\'s center marker, not both.',
