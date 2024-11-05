@@ -13,7 +13,7 @@ A Flutter plugin that provides a customizable place picker using Apple Maps. Thi
 
 ### Light & Dark & Preview
 
-| <img src="https://github.com/shahmirzali49/apple_maps_place_picker/blob/main/assets/light_theme.png" alt="light" width="210"> | <img src="https://github.com/shahmirzali49/apple_maps_place_picker/blob/main/assets/dark_theme.png" alt="dark" width="210"> | <img src="https://github.com/shahmirzali49/apple_maps_place_picker/blob/main/assets/preview.gif" alt="preview" width="210"> | 
+| <img src="https://raw.githubusercontent.com/shahmirzali49/apple_maps_place_picker/refs/heads/main/assets/light_theme.png" alt="light" width="210"> | <img src="https://raw.githubusercontent.com/shahmirzali49/apple_maps_place_picker/refs/heads/main/assets/dark_theme.png" alt="dark" width="210"> | <img src="https://raw.githubusercontent.com/shahmirzali49/apple_maps_place_picker/refs/heads/main/assets/preview.gif" alt="preview" width="210"> | 
 |:---:|:---:|:---:|
 
 ## Features
