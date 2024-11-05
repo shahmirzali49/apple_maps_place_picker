@@ -6,3 +6,6 @@
 
 ## 0.1.2
 - Updated README.md
+
+## 0.1.3
+- Updated Doc
